@@ -27,29 +27,9 @@
   font-weight: 600;
   line-height: normal;
 }
-@media screen and (max-width: 1024px) {
-  .container nav h1 {
-    font-size: 40px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .container nav h1 {
-    font-size: 40, 24px;
-  }
-}
 .container nav ul {
   display: flex;
   align-items: center;
-}
-@media screen and (max-width: 1024px) {
-  .container nav ul {
-    display: none;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .container nav ul {
-    display: none;
-  }
 }
 .container nav ul li a {
   color: #fff;
@@ -68,17 +48,7 @@
   background: #bc8afc;
   box-shadow: 10px 7px 9px 0px rgba(0, 0, 0, 0.25);
 }
-@media screen and (max-width: 1024px) {
-  .container nav button {
-    display: none;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .container nav button {
-    display: none;
-  }
-}
-.container nav a {
+.container nav button a {
   color: #000;
   font-family: Poppins;
   font-size: 22px;
@@ -86,13 +56,12 @@
   font-weight: 500;
   line-height: normal;
 }
-
-main {
+.container main {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-main h2 {
+.container main h2 {
   width: 631px;
   color: #fff;
   font-family: Poppins;
@@ -102,18 +71,16 @@ main h2 {
   line-height: 120%;
 }
 @media screen and (max-width: 1024px) {
-  main h2 {
-    font-size: 48px;
-    width: 370px;
+  .container main h2 {
+    margin-top: 86px;
   }
 }
 @media screen and (max-width: 768px) {
-  main h2 {
-    font-size: 48px;
-    width: 359px;
+  .container main h2 {
+    margin-top: 65px;
   }
 }
-main p {
+.container main p {
   margin-top: 32px;
   width: 628px;
   color: #fff;
@@ -124,17 +91,16 @@ main p {
   line-height: 158%;
 }
 @media screen and (max-width: 1024px) {
-  main p {
-    width: 370px;
+  .container main p {
+    margin-top: 35px;
   }
 }
 @media screen and (max-width: 768px) {
-  main p {
+  .container main p {
     margin-top: 24px;
-    width: 359px;
   }
 }
-main button {
+.container main button {
   margin-top: 44px;
   padding: 15px 15px;
   border-radius: 7px;
@@ -143,18 +109,18 @@ main button {
   box-shadow: 10px 7px 9px 0px rgba(0, 0, 0, 0.25);
 }
 @media screen and (max-width: 1024px) {
-  main button {
+  .container main button {
     margin-top: 32px;
     padding: 12px 12px;
   }
 }
 @media screen and (max-width: 768px) {
-  main button {
+  .container main button {
     margin-top: 24px;
     padding: 12px 11px;
   }
 }
-main button a {
+.container main button a {
   color: #000;
   font-family: Poppins;
   font-size: 22px;
@@ -162,15 +128,40 @@ main button a {
   font-weight: 500;
   line-height: normal;
 }
+
+/* // tabletstyle
 @media screen and (max-width: 1024px) {
-  main .right-container img {
-    width: 396px;
-    height: 454.266px;
+  .container {
+    padding: 19px 24px 46px 40px;
+    main {
+      h2 {
+        margin-top: 86px;
+      }
+      p {
+        margin-top: 35px;
+      }
+      button {
+        margin-top: 32px;
+        padding: 12px 12px;
+      }
+    }
   }
 }
+// mobilestyle
 @media screen and (max-width: 768px) {
-  main .right-container img {
-    width: 396px;
-    height: 454px;
+  .container {
+    padding: 19px 16px 24px 16px;
+    main {
+      h2 {
+        margin-top: 65px;
+      }
+      p {
+        margin-top: 24px;
+      }
+      button {
+        margin-top: 24px;
+        padding: 12px 11px;
+      }
+    }
   }
-}/*# sourceMappingURL=index.css.map */
+} *//*# sourceMappingURL=index_20231118155632.css.map */

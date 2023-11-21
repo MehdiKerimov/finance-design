@@ -21,10 +21,23 @@
       font-style: normal;
       font-weight: 600;
       line-height: normal;
+      @media screen and (max-width: 1024px) {
+ font-size: 40px;
+      }
+       @media screen and (max-width: 768px){
+        font-size: 40,24px;
+       }
     }
     ul {
       display: flex;
       align-items: center;
+      @media screen and (max-width: 1024px) {
+       display: none;
+             }
+               @media screen and (max-width: 1024px){
+                display: none;
+               }
+
       li {
         a {
           color: #fff;
@@ -34,6 +47,7 @@
           font-weight: 400;
           line-height: normal;
           margin-right: 59px;
+         
         }
       }
     }
@@ -45,6 +59,13 @@
       border-radius: 7px;
       background: #bc8afc;
       box-shadow: 10px 7px 9px 0px rgba(0, 0, 0, 0.25);
+      @media screen and (max-width: 1024px) {
+       display: none;
+             }
+                  @media screen and (max-width: 1024px){
+                    display: none;
+                  }
+                  }
       a {
         color: #000;
         font-family: Poppins;
@@ -68,10 +89,13 @@
       font-weight: 600;
       line-height: 120%;
       @media screen and (max-width: 1024px) {
-        margin-top: 86px;
+   
+        font-size: 48px;
+        width: 370px;
       }
       @media screen and (max-width: 768px) {
-        margin-top: 65px;
+   font-size: 48px;
+   width: 359px;
       }
     }
     p {
@@ -84,10 +108,11 @@
       font-weight: 400;
       line-height: 158%;
       @media screen and (max-width: 1024px) {
-        margin-top: 35px;
+     width: 370px;
       }
       @media screen and (max-width: 768px) {
         margin-top: 24px;
+        width: 359px;
       }
     }
     button {
@@ -112,7 +137,20 @@
         font-style: normal;
         font-weight: 500;
         line-height: normal;
+        
+      }
+    }
+    .right-container{
+      img{
+        @media screen and (max-width:1024px) {
+          width: 396px;
+height: 454.266px;
+        }
+        @media screen and (max-width: 768px){
+          width: 396px;
+          height:454px ;
+        }
       }
     }
   }
-}
+
